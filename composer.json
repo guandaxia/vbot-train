@@ -1,0 +1,14 @@
+{
+    "name": "guansixu/vbot-train",
+    "description": "vbot train ext",
+    "authors": [
+        {
+            "name": "guansixu",
+            "email": "guansixu@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "hanson/vbot": "^2.0"
+    }
+}
