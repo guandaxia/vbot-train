@@ -1,14 +1,18 @@
 {
     "name": "guansixu/vbot-train",
     "description": "vbot train ext",
-    "authors": [
-        {
-            "name": "guansixu",
-            "email": "guansixu@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "guansixu",
+        "email": "guansixu@gmail.com"
+    }],
     "require": {},
     "require-dev": {
         "hanson/vbot": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Guansixu\\Train\\": "src/"
+        }
     }
 }
