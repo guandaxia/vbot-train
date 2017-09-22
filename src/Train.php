@@ -1,12 +1,12 @@
 <?php
 
 /**
- * Description: guansixu
+ * Description: 
  * User: guansixu
  * Date: 2017/6/21
  * Time: 14:14
  */
-namespace Guansixu\train;
+namespace Guansixu\Train;
 
 use Hanson\Vbot\Extension;
 use Hanson\Vbot\Support\Http;
@@ -15,7 +15,7 @@ class Train extends AbstractMessageHandler
 {
     public $author = 'guansixu';
     public $version = '1.0';
-    public $name = 'train late query';
+    public $name = 'train_late';
     public $zhName = '火车正晚点查询';
     private static $array = [];
 
